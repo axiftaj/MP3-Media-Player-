@@ -39,6 +39,7 @@ public class MediaPlayerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_media_player);
 
+        //intilizing
         seekBar = findViewById(R.id.seekBar);
         next = findViewById(R.id.next);
         previous = findViewById(R.id.previous);
